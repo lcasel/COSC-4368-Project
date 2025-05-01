@@ -11787,10 +11787,8 @@ Difference: 0.010000000000000009
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Both models perform extremely well but Random Forest clearly out performs MLP for this dataset. Here's some information on why that may be the case:<ul>
+<li>Both models perform extremely well but Random Forest clearly out performs MLP for this dataset. Here's some information on why that may be the case:</li>
 <li><strong>Differences between Models</strong></li>
-</ul>
-</li>
 </ul>
 <table>
 <thead>
@@ -11818,12 +11816,37 @@ Difference: 0.010000000000000009
 </tr>
 </tbody>
 </table>
-<pre><code>- __Accuracy and Metrics__
-    - As seen in the previous cells above, Random Forest overall has slightly higher accuracy, recall, precision, and f1 score.
-    - There is also less difference between training and testing accuracy for Random Forest.
-    - Random Forest only missclassifies 1 sample out of 1500, while MLPClassifier misclassifies 15 samples out of 1500.
-- __Overfitting and Generalization__
-</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=66314da3-b69f-4cc7-a864-13cc965c1af1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><strong>Accuracy and Metrics</strong><ul>
+<li>As seen in the previous cells above, Random Forest overall has slightly higher accuracy, recall, precision, and f1 score.</li>
+<li>There is also less difference between training and testing accuracy for Random Forest.</li>
+<li>Random Forest only missclassifies 1 sample out of 1500, while MLPClassifier misclassifies 15 samples out of 1500.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8684f1b7-73a8-4c5f-984e-3052185985ac">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><strong>Overfitting and Generalization</strong></li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -11845,9 +11868,23 @@ Difference: 0.010000000000000009
 </tr>
 </tbody>
 </table>
-<pre><code>    - Random Forest has a almost non existent gap between training and testing accuracy (~0.066%), suggesting high generalization.
-    - MLPClassifier, on the other hand, has a larger gap (~1%), suggesting that there is a slight overfit. However the model still performs extremely well.
-</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f317cfe6-a2ae-482f-bff6-1b3fd223c2e3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><ul>
+<li>Random Forest has a almost non existent gap between training and testing accuracy (~0.066%), suggesting high generalization.</li>
+<li>MLPClassifier, on the other hand, has a larger gap (~1%), suggesting that there is a slight overfit. However the model still performs extremely well.</li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 </div>
